@@ -26,3 +26,5 @@ v3.out
 ```
 
 5. As usual, you only need to upload the files mentioned in (4). No need to push the whole flex repository.
+
+6. Once you push your code, github will automatically run an autocorrect routine using some sample input. To check if you passed the sample tests, go to the Actions tab of your github lab 01 site.
