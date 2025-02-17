@@ -2,7 +2,11 @@
 
 ## Instructions
 
-1. Lab 01 specs are attached in github classroom.
+1. Lab 01 specs are attached in github classroom. You may assume as well the following:
+
+    - There is a single space between operands and operator, i.e. **isa at isa;**
+    - There is no space between the last operand and the semicolon denoting EOF.
+    - All computations are right associative, i.e. **isa bawas dalawa bawas tatlo;** gives out **2**.
 
 2. Write your code such that it accepts the input file's filename as a parameter, i.e. your `int main` in your `.y` bison code should look like:
 
@@ -36,4 +40,4 @@ v3.y
 v3.out
 ```
 
-5. Once you push your code, github will automatically run an autocorrect routine using some sample input. To check if you passed the sample tests, go to the Actions tab of your github lab 01 site.
+5. Once you push your code, github will automatically run an autocorrect routine using some sample input. To check if you passed the sample tests, go to the Actions tab of your github lab 01 site. Tests 1-2 are for version 1. Tests 3-4 are for version 2. Tests 5-6 are for version 3.
